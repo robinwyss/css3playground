@@ -1,0 +1,19 @@
+body
+{
+    font-family: 'Advent Pro', sans-serif;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul a, nav ul a:hover, nav ul a:active, nav ul a:visited
+{
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+nav ul a:hover{
+    text-decoration: underline;
+}

@@ -1,11 +1,17 @@
-<script type="text/javascript">
-    window.addEventListener('load', function () {
-        var container = document.getElementById('container');
-        var element
-        for (var i = 0; i < 3600; i++) {
-            element = document.createElement('div');
-            element.setAttribute('class', 'card');
-            container.appendChild(element);
-        }
-    });
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Playground</title>
+    <link type="text/css" rel="stylesheet" href="follow.css">
+    <script type="text/javascript" src="../util.js" ></script>
+    <script>
+        Util.onLoad(function(){
+            Util.generateDivs(Util.byId('container'), 4000, 'card');
+        })
+    </script>
+</head>
+<body>
+<div id="container">
+</div>
+</body>
+</html>
