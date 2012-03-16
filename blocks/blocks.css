@@ -1,0 +1,72 @@
+/* override cube styles*/
+.cube, .cube > div
+{
+    width: 50px;
+    height: 50px;
+}
+
+.cube .pan1
+{
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translateZ(52px);
+
+    -o-backface-visibility: visible;
+    -o-transform: translateZ(52px);
+
+    -moz-backface-visibility: visible;
+    -moz-transform: translateZ(52px);
+
+    -ms-backface-visibility: visible;
+    -ms-transform: translateZ(52px);
+
+    backface-visibility: visible;
+    transform: translateZ(52px);
+}
+
+/* block 1*/
+.block1
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    -webkit-transform-origin-x: 100%;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: rotateX(10deg) rotateY(10deg);
+}
+
+.cube1
+{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /* safari chrome */
+    -webkit-transform-origin-x: 100%;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform-style: preserve-3d;
+    /*-webkit-transform: rotateX(10deg) rotateY(10deg);*/
+}
+
+.cube1 .pan
+{
+    border: 1px solid #333;
+    background-color: #00DDFF;
+}
+
+.cube2
+{
+    position: relative;
+    left: 50px;
+    top: -50px;
+    /* safari chrome */
+    -webkit-transform-origin-x: 100%;
+    -webkit-transform-origin-y: 100%;
+    -webkit-transform-style: preserve-3d;
+    /*-webkit-transform: rotateX(10deg) rotateY(10deg);*/
+}
+
+.cube2 .pan
+{
+    border: 1px solid #333;
+    background-color: #faebd7;
+}

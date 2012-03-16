@@ -1,18 +1,16 @@
-.cube
+.cssCube
 {
-    width: 300px;
-    height: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
 }
 
-.cube:hover div
+.cssCube:hover div
 {
     border: 1px solid #444;
 }
 
-.cube.animation
+.cssCube.animation
 {
     /* safari chrome */
     -webkit-transition: -webkit-transform 2s;
@@ -47,19 +45,28 @@
 
 }
 
-.cube div
+.cssCube
 {
     border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.cssCube .text
+{
+    font-size: 151px;
+}
+
+.cube{
+    width: 300px;
+    height: 300px;
+}
+
+.cube div
+{
     width: 300px;
     height: 300px;
     position: absolute;
     top: 0px;
     left: 0px;
-}
-
-.cube .text
-{
-    font-size: 151px;
 }
 
 /* front */
